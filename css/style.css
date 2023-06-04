@@ -51,6 +51,8 @@
     right: 60px;
 }
 
+
+
 .our_best_sellers h2{
     font-family: 'Roboto', serif;
     font-style: normal;
@@ -69,5 +71,61 @@
     line-height: 23px;
     text-align: center;
     color: #000000;
+    max-width: 632px;
+    margin: auto auto 47px;
 }
 
+.available_as{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 88px;
+}
+
+.our_best_sellers h2:last-of-type{
+    margin-bottom: 52px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.card img{
+    margin-bottom: 27px;
+}
+
+.card h3{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    max-width: 156px;
+}
+
+
+
+.card a{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-bottom: 248px;
+}
