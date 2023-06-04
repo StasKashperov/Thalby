@@ -128,3 +128,12 @@
     color: #000000;
     margin-bottom: 248px;
 }
+
+.cards .owl-item{
+    text-align: center;
+}
+
+.cards .owl-stage{
+    display: flex;
+    align-items: center;
+}
