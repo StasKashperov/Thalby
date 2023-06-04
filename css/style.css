@@ -48,11 +48,13 @@
 
 .phone_tablet{
     position: absolute;
-    top: 9px;
+    top: 0px;
     right: 60px;
 }
 
-
+.our_best_sellers{
+    padding-top: 60px;
+}
 
 .our_best_sellers h2{
     font-family: 'Roboto', serif;
@@ -62,6 +64,7 @@
     line-height: 42px;
     text-align: center;
     color: #000000;
+    margin-bottom: 27px;
 }
 
 .are_you_curious{
@@ -97,7 +100,7 @@
 }
 
 .card{
-    margin: auto;
+    margin: auto auto 248px;
     text-align: center;
 }
 
@@ -115,6 +118,11 @@
     color: #000000;
     max-width: 156px;
     margin-left: 76px;
+    margin-bottom: 17px;
+}
+
+.card .price{
+    margin-bottom: 10px;
 }
 
 .card a{
@@ -126,11 +134,12 @@
     text-align: center;
     text-decoration-line: underline;
     color: #000000;
-    margin-bottom: 248px;
 }
 
 .cards .owl-item{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cards .owl-stage{
