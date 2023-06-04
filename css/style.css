@@ -1,0 +1,73 @@
+.container{
+    max-width: 1064px;
+    margin: auto;
+}
+
+.greeting{
+    background-color: #F0EFEB;
+    padding-top: 90px;
+    padding-left: 188px;
+}
+
+.greeting h2{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 42px;
+}
+
+.greeting .get_to_know{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.black_button{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: black;
+    padding: 7px 23px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 14px;
+    margin-bottom: 90px;
+}
+
+.phone_tablet{
+    position: absolute;
+    top: 9px;
+    right: 60px;
+}
+
+.our_best_sellers h2{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+.are_you_curious{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
