@@ -2,8 +2,8 @@ $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop:true,
         nav:true,
-        autoplay:true,
-        autoplayTimeout:2000,
+        //autoplay:true,
+        //autoplayTimeout:4000,
         navText: [ '', ' ' ],
 
         responsive:{

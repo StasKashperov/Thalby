@@ -100,7 +100,7 @@
 }
 
 .card{
-    margin: auto auto 248px;
+    margin: auto; /*in example margin bottom 248px*/
     text-align: center;
 }
 
@@ -145,4 +145,16 @@
 .cards .owl-stage{
     display: flex;
     align-items: center;
+}
+
+.cards .owl-dots{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards .owl-dots .owl-dot{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 40%;
 }
