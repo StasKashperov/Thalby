@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1419px) {
+    .greeting{
+        padding-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1335px) {
+    .greeting{
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 1248px) {
+    .phone_tablet{
+        position: relative;
+        margin: auto 70px auto;
+    }
+}
+
+@media only screen and (max-width: 754px) {
+    .phone_tablet{
+        margin-left: 70px;
+        margin-top: 70px;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 482px) {
+    .phone_tablet{
+        margin-left: 70px;
+        margin-top: -50px;
+    }
+}
+
+@media only screen and (max-width: 354px) {
+    .phone_tablet{
+        margin-left: 10px;
+        margin-top: -50px;
+    }
+}
+
+@media only screen and (max-width: 295px) {
+    .phone_tablet{
+        margin-left: 10px;
+        margin-top: -50px;
+        margin-right: -30px;
+    }
+}
